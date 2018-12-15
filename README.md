@@ -1,4 +1,4 @@
-#DoSeR-Disambiguation
+# DoSeR-Disambiguation
 This package exclusively contains the disambiguation system of DoSeR. Compilation results in a Stand-alone jar file which starts an Apache Tomcat Server. More infos about the full DoSeR systems can be found here: [Github Wiki](https://github.com/quhfus/DoSeR/wiki) 
 
 If your system does not have enough system memory (25GB Ram), you can use the the rest service of the current DoSeR version which is applicable for GERBIL. **Coming soon**
@@ -6,7 +6,7 @@ If your system does not have enough system memory (25GB Ram), you can use the th
 
 We note that this service is limited to 5 queries in parallel.
 
-##Requirements
+## Requirements
 To install and run the DoSeR disambiguation systems, the following components must be installed:
 
 1. Java Version 1.7 or higher
@@ -17,7 +17,7 @@ To install and run the DoSeR disambiguation systems, the following components mu
 
 4. Semantic Embeddings: [Dropbox Link](https://www.dropbox.com/s/4e2g72yud1muv5a/Semantic_Embeddings.tar.gz?dl=0)
 
-##Installation
+## Installation
 1. Checkout the DoSeR-Disambiguation Github repository and install the system with **mvn compile**. If no maven is installed or if you are not interested in the source code you can download the doser-dis-disambiguationserver.jar file and disambiguation.properties file from here (coming very soon).  
 
 2. Put the resulting or downloaded **doser-dis-disambiguationserver.jar** file and the properties file into a newly created directory **foo**. Unzip the Disambiguation Index and put the index folder into the **foo** directory.
@@ -30,7 +30,7 @@ To install and run the DoSeR disambiguation systems, the following components mu
 
 7. Start the doser-dis-disambiguationserver.jar 
 
-##Citation
+## Citation
 If you use DoSeR in your research, please cite the following paper:
 
     @inproceedings{DBLP:conf/esws/ZwicklbauerSG16,
